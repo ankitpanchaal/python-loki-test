@@ -9,4 +9,4 @@ logging.basicConfig(level=logging.INFO)
 @app.get("/health")
 def health_check():
     logging.info("Health check OK")
-    return {"status": "healthy"}
+    return {"status": "healthy - prod"}
